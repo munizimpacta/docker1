@@ -16,7 +16,7 @@ def nao_entre_em_panico():
         if total == 2:
             primos.append(numero)
         numero += 1
-    return primos0
+    return primos
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
